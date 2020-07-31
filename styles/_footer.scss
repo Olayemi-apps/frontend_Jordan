@@ -1,0 +1,19 @@
+footer {
+	min-height: 10vh;
+	background-color: grey;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	ul {
+		display: flex;
+		flex: 1;
+		list-style: none;
+		justify-content: space-between;
+	}
+	#logo_2 {
+		flex: 3;
+	}
+}
